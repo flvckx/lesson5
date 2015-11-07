@@ -9,16 +9,16 @@
 #import "Game.h"
 #import "PlayingCardDeck.h"
 
-#import "ViewController.h"
+#import "GameViewController.h"
 
-@interface ViewController ()
+@interface GameViewController ()
 
 @property (nonatomic, strong) Game *game;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 
 @end
 
-@implementation ViewController
+@implementation GameViewController
 
 
 - (Game *)game {
